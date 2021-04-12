@@ -15,7 +15,7 @@
               </ul><a href="#" class="button-main w-button">get started, it&#x27;s free<span class="fa text-span"></span></a></div>
             <div class="col hero-image-container margin-bottom md-align-centre"><img src="http://via.placeholder.com/230x271" alt="" class="left-hexagon"><img src="http://via.placeholder.com/230x271" alt="" class="right-hexagon"><img src="http://via.placeholder.com/750x710" srcset="http://via.placeholder.com/750x710 500w, http://via.placeholder.com/750x710 600w" sizes="(max-width: 767px) 100vw, (max-width: 991px) 742.4998779296875px, 75vw" alt="" class="fluid"><img src="http://via.placeholder.com/450x380" alt="" class="team"></div>
           </div>
-        </div><img src="assets/images/Ellipse.png" srcset="assets/images/Ellipse-p-500.png 500w, images/Ellipse-p-800.png 800w, images/Ellipse-p-1080.png 1080w, images/Ellipse.png 1667w" sizes="(max-width: 991px) 100vw, 1660px" alt="" class="ellipse"></div>
+        </div><img src="assets/images/Ellipse.png" srcset="assets/images/Ellipse-p-500.png 500w, assets/images/Ellipse-p-800.png 800w, assets/images/Ellipse-p-1080.png 1080w, images/Ellipse.png 1667w" sizes="(max-width: 991px) 100vw, 1660px" alt="" class="ellipse"></div>
       <div class="section">
         <div class="wrapper">
           <div class="row align-center">
@@ -428,20 +428,17 @@
       </div>
       <!--The End of The Home Template-->
     </div>
-      <Footer />
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import HomeNavbar from '@/components/HomeNavbar.vue'
-import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'Home',
   components: {
-    HomeNavbar,
-    Footer
+    HomeNavbar
   }
 }
 </script>

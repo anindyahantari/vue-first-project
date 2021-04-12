@@ -53,21 +53,18 @@
         </div>
       </div>
     </div>
-    <Footer />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import Navbar from "@/components/Navbar.vue";
-import Footer from "@/components/Footer.vue";
 import axios from "axios";
 
 export default {
   name: "Blog",
   components: {
-    Navbar,
-    Footer,
+    Navbar
   },
   data() {
     return {
