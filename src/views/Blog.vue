@@ -20,8 +20,7 @@
         <div class="wrapper">
           <div class="row-2">
             <div class="col-2 lg-4 sm-2" v-for="article in articles" :key="article.id">
-              <a
-                :href="article.url"
+              <router-link :to="'/blog/' + article.title"
                 class="blog-thumbnail-container no-border w-inline-block"
                 ><img :src="article.urlToImage" width="533" alt="" />
                 <div class="padding no-horizontal-padding">
@@ -32,8 +31,7 @@
                   </div>
                   <h3 class="blog-grid-title">{{article.title}}</h3>
                   <p class="paragraph-small">{{article.content}}</p>
-                </div></a
-              >
+                </div></router-link>
             </div>
 
             <div class="col-2">
